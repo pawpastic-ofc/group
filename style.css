@@ -1,7 +1,13 @@
 #html{
     width: 100%;
+    overflow: hidden;
+    background: linear-gradient(60deg, #280137, #000000);
 }
 body{
+    height: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     width: 100%;
     margin: 0;
     color: white;
@@ -672,7 +678,7 @@ body{
     height: 6px;
     width: 50px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 335px) {
     .join-btn{
         display: none;
     }
@@ -707,7 +713,7 @@ body{
         bottom: 0;
         align-items: start;
         padding-top: 4vh;
-        background: linear-gradient(60deg, #280137, #000000);
+        background: linear-gradient(90deg, #280137, #000000);
     }
     .action{
         text-align: center;
